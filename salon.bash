@@ -26,7 +26,7 @@ APPOINTMENT_MENU(){
   then
     echo -e "Welcome to My Salon, how can I help you?"
     DISPLAY_SERVICES $I    
-    I=$((I+=1))
+    I=$(($I+=1))
   elif [[ $1 =~ ^[^1-9] ]] 
   then  
     echo -e "\n$1"
